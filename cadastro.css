@@ -1,0 +1,138 @@
+body
+{
+font-family:Impact, 'Arial Narrow Bold', sans-serif;
+overflow: hidden;
+
+}
+
+.area-login
+{
+display: flex;
+height: 100vh;
+justify-content: center;
+align-items: center;
+justify-content: center;
+align-items: center;
+font-size: 15px;/*ALTERAR TAMANHO DA FONTE*/
+}
+.login
+{/*DIV MAOIR */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+background-color: rgba(8, 117, 43, 0.368); /*MUDAR AS COR DO DIV MAIOR*/
+width: 355px;
+height: 400px;/*ALTERA A ALTURA */
+padding: 35px;
+border-radius: 12%;
+margin-bottom: -200px;
+
+}
+
+.login form 
+{
+display: flex;
+flex-direction: column;
+width: 100%;
+}
+
+.login input
+{ /*CAMPOS DO CADASTRO*/
+background-color:rgb(255, 255, 255) ;
+margin-top: 10px;/*ESPAÇA AS DIV DE CADA */
+border:  none;
+height: 45px;/*ALTERA A ALTURA DA DIV*/
+outline: none;
+border-radius: 8px;/*ALTERA A BORDA DA DIV*/
+color: rgb(0, 0, 0);
+padding-left: 10px;/*DEIXA AS LETRAS MAIS PARA ESQUERDA OU PARA DIREITA*/
+font-size: 15px;/*ALTERAR TAMANHO DA FONTE*/
+
+}
+
+.login input:hover
+{ /*CAMPOS DO CADASTRO*/
+ background-color: rgba(8, 117, 43, 0.777); /*MUDAR AS COR DO DIV MAIOR*/
+margin-top: 10px;/*ESPAÇA AS DIV DE CADA */
+border:  none;
+height: 45px;/*ALTERA A ALTURA DA DIV*/
+outline: none;
+border-radius: 8px;/*ALTERA A BORDA DA DIV*/
+
+padding-left: 10px;/*DEIXA AS LETRAS MAIS PARA ESQUERDA OU PARA DIREITA*/
+font-size: 15px;/*ALTERAR TAMANHO DA FONTE*/
+}
+
+input::placeholder
+{
+color: rgb(0, 0, 0);
+font-size: 14px;
+}
+
+.icone2{
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 200px;
+}
+
+.icone3{
+    position: absolute;
+    margin-top: 295px;
+    margin-left: 200px;
+}
+
+.icone4{
+    position: absolute;
+    margin-top: 345px;
+    margin-left: 200px;
+}
+
+.tudo
+      {
+       position: absolute;
+        width: 100%;
+        height: 200px;
+        margin-bottom: 10%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-items: center;
+        align-content: center;
+        align-items: center;  
+        border-radius: 20%;
+        background-color: rgba(116, 184, 221, 0.474); /*MUDAR AS COR DO DIV MAIOR*/
+      }
+
+      .botoes
+      { /*CAMPOS DO CADASTRO*/
+      background-color:rgb(255, 255, 255) ;
+      margin-top: 10px;/*ESPAÇA AS DIV DE CADA */
+      border:  none;
+      height: 45px;/*ALTERA A ALTURA DA DIV*/
+      outline: none;
+      border-radius: 8px;/*ALTERA A BORDA DA DIV*/
+      color: rgb(0, 0, 0);
+      padding-left: 10px;/*DEIXA AS LETRAS MAIS PARA ESQUERDA OU PARA DIREITA*/
+      font-size: 15px;/*ALTERAR TAMANHO DA FONTE*/
+      
+      }
+
+      .titulo{
+        margin-bottom: 300px;
+        margin-left: 25%;
+        position: absolute;
+      }
+
+      .sele{
+        margin-left: 10px;
+        color: rgb(48, 48, 48);
+        background-color: aliceblue;
+        border-radius: 20%;
+        font-size: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-items: center;
+        align-content: center;
+        align-items: center;  
+      }
